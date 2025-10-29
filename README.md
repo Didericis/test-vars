@@ -7,7 +7,7 @@ Simple utility to lazily evaluate variables in tests (like rspec's [let](https:/
 
 ## Motivation
 
-Utility for writing manageable bdd style tests outside of the frameworks supported by [bdd-lazy-var](https://www.npmjs.com/package/bdd-lazy-var). See the documentation of bdd-lazy-var for reasons why to test in this style.
+Writing manageable bdd style tests outside of the frameworks supported by [bdd-lazy-var](https://www.npmjs.com/package/bdd-lazy-var). See the documentation of bdd-lazy-var for reasons why to test in this style.
 
 ## Usage
 
