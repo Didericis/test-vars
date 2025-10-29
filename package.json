@@ -1,6 +1,6 @@
 {
   "name": "test-vars",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "lazy var util for testing (inspired by bdd-lazy-var)",
   "main": "index.js",
   "scripts": {
