@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/Didericis/test-vars/compare/v1.2.0...v1.2.1) (2025-10-30)
+
+
+### Bug Fixes
+
+* autogenerate type declarations ([f4bd26a](https://github.com/Didericis/test-vars/commit/f4bd26a6c6343a53c11630415c99cecc9b36c1fa))
+
 # [1.2.0](https://github.com/Didericis/test-vars/compare/v1.1.0...v1.2.0) (2025-10-30)
 
 

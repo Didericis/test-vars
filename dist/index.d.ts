@@ -3,7 +3,7 @@ export function createTestVars(): Pick<TestVarsContext, "def" | "setup" | "subje
 /**
  * Function that defines the value of a TestVar
  * @template {any} T
- * @typedef {(() => T | Promise<T>)} TestVarGetter
+ * @typedef {() => T} TestVarGetter
  */
 /**
  * TestVar instance returned by "def()"
@@ -57,7 +57,7 @@ export class TestVarsContext {
 /**
  * Function that defines the value of a TestVar
  */
-export type TestVarGetter<T extends unknown> = (() => T | Promise<T>);
+export type TestVarGetter<T extends unknown> = () => T;
 /**
  * TestVar instance returned by "def()"
  */
