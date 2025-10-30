@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/Didericis/test-vars/compare/v1.1.0...v1.2.0) (2025-10-30)
+
+
+### Features
+
+* stricter type declarations ([698890a](https://github.com/Didericis/test-vars/commit/698890a49e01befe8ca94389416744b41f45c3bd))
+
 # [1.1.0](https://github.com/Didericis/test-vars/compare/v1.0.1...v1.1.0) (2025-10-29)
 
 
