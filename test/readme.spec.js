@@ -10,7 +10,11 @@ describe('example()', () => {
   // (this will create state specific to this block)
   const { def, setup, subject } = createTestVars()
   const $foo = def('foo', () => /** @type {string | null} */ (null))
-  const $bar = def('bar', () => $foo())
+  const $bar = def(
+    'bar',
+    // ensures the type checker always asks us to await $bar
+    () => /** @type {Promise<string | null>}*/ (Promise.resolve($foo()))
+  )
   const $subject = subject(async () => example(await $bar()))
 
   beforeEach(() => {

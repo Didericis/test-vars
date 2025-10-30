@@ -3,7 +3,7 @@
 /**
  * Function that defines the value of a TestVar
  * @template {any} T
- * @typedef {(() => T | Promise<T>)} TestVarGetter
+ * @typedef {() => T} TestVarGetter
  */
 
 /**

@@ -9,7 +9,7 @@ import { TestVarsContext, TestVarsError } from '../index.js'
 /**
  * @param {TestVarsContext} $
  * @param {TestVar<string | null>} $foo
- * @param {TestVar<string | null>} $bar
+ * @param {TestVar<Promise<string | null>>} $bar
  */
 function testBasicFunctionality($, $foo, $bar) {
   describe('basic functionality works', () => {
